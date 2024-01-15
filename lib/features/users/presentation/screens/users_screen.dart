@@ -13,7 +13,9 @@ class UsersScreen extends ConsumerStatefulWidget {
 
 class _UsersScreenState extends ConsumerState<UsersScreen> {
   Future<void> _refresh() async {
-    setState(() {});
+    setState(() {
+      ref.read(usersProvider.notifier).fetchUsers();
+    });
   }
 
   @override
