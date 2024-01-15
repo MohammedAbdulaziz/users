@@ -1,16 +1,45 @@
-# users
+# Installation
 
-A basic mobile application using Flutter that retreives and displays a list of users from a public API
+## Prerequisites
 
-## Getting Started
+Before you begin, ensure that you have the following installed on your system:
 
-This project is a starting point for a Flutter application.
+-   [Flutter SDK](https://flutter.dev/docs/get-started/install)
+-   [Dart SDK](https://dart.dev/get-dart)
+-   [Git](https://git-scm.com/)
 
-A few resources to get you started if this is your first Flutter project:
+## Steps
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the Repository:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ```bash
+    git clone https://github.com/MohammedAbdulaziz/users.git
+    cd users
+
+    ```
+
+2. **Install Dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the Project:**
+
+    ```bash
+     flutter run
+    ```
+
+4. **Alternatively: Run on a Specific Device**
+
+If you have multiple devices/emulators, you can specify the target device using the -d flag. For example:
+
+```
+flutter run -d <device-id>
+```
+
+# Technologies
+
+-   Clean Architecture
+-   Navigation (GoRouter)
+-   State Management (Riverpod)
